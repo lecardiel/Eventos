@@ -1,0 +1,127 @@
+
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+body.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #8b8268; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+    transition: background-color 1s ease; 
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #6550b3;
+    margin-top: 40px;
+    font-size: 3em;
+}
+
+
+.category {
+    margin: 40px 0;
+    width: 80%;
+    border: 1px solid #f3ce27;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #dfdad1;
+    border-radius: 10px;
+}
+
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    font-size: 2.5em;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+}
+
+
+.card {
+    width: 30%;
+    min-width: 250px; 
+    margin: 10px;
+    border: 1px solid #8B4513;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #8B4513;
+}
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 15px 0 10px 0;
+    color: #000000;
+    font-size: 1.8em;
+}
+
+.card p {
+    padding: 0 15px;
+    font-size: 1.1em;
+}
+
+.card a {
+    display: inline-block;
+    margin: 15px 0;
+    text-decoration: none;
+    color: #FF6F00;
+    font-weight: 500;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.bg-blue {
+    background-color: #507b8a;
+}
+
+.bg-green {
+    background-color: #60a760; 
+}
+
+.bg-yellow {
+    background-color: #c7c795; 
+}
+
+
+.nuevo-fondo {
+    background-color: #d6ac37; 
+}
+
